@@ -11,3 +11,11 @@ Este proyecto es un juego de memoria en el que los jugadores deben emparejar car
 - **Juego Interactivo**. Encuentra todas las parejas de cartas para ganar.
 - **Temporizador**. Mide el tiempo que tardas en completar el juego.
 - **Reinicio fácil**. Opción para reiniciar el juego en cualquier momento.
+
+## 🛠 Tecnologías y Herramientas
+- **React.** Biblioteca de JavaScript para la creación de interfaces de usuario.
+- **JavaScript (ES6).** Lógica del Juego.
+- **CSS.** Estilización de los componentes y diseño responsive.
+- **HTML5.** Estructura básica del proyecto.
+
+
