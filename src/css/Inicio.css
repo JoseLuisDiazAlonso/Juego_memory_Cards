@@ -1,0 +1,46 @@
+/*Colocamos una imagen de fondo.*/
+
+body {
+    background-image: url('../media/pagina_inicio.jpg');
+    background-size: cover;
+    /*Permite que la imagen ocupe todo el contenedor*/
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    width: 90vw;
+    height: 1200px;
+  
+}
+
+.container1, .header, .texto, .button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+h1 {
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-top: 200px;
+    font-weight: bolder;
+}
+
+p {
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.button button {
+    background-color: yellow;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 0px, 0px, 10px, 0px rgba(0, 0, 0, 0.75);
+}
