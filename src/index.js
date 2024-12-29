@@ -1,16 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Inicio from './pages/Inicio';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom/client'; // Asegúrate de usar la versión correcta de React DOM
+import App from './App'; // Importa el archivo que contiene tus rutas
+import './index.css'; // Si tienes un archivo de estilos globales
 
+// Este es el punto de entrada de tu aplicación
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Renderiza tu componente App dentro del elemento con id 'root'
 root.render(
   <React.StrictMode>
-    <Inicio />
+    <App /> {/* Aquí es donde tu App contiene todas las rutas */}
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

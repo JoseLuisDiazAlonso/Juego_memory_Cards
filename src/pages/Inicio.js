@@ -1,7 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import '../css/Inicio.css';
 
 const Inicio = () => {
+    const navigate = useNavigate(); //Hook para navegar.
+    const handleStartGame = () => {
+        navigate('/Juego'); //Redirige a la página de Juego.
+
+    };
     return (
         <body>
             <div className='container1'>
@@ -18,7 +24,7 @@ const Inicio = () => {
 
                 {/**Aqui va el botón para iniciar el juego */}
                 <div className='button'>
-                    <button id='botonInicio'>Start</button>
+                    <button id='botonInicio' onClick={handleStartGame}>Start</button>
                 </div>
             </div>
         </body>

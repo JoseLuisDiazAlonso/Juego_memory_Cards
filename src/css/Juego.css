@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.juego-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../media/pagina_inicio.jpg');
+    background-size: cover;
+    /*Permite que la imagen ocupe todo el contenedor*/
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    width: 90vw;
+    height: 1200px;
+  
+}
+
+.juego-container h1 {
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-top: 200px;
+    font-weight: bolder;
+    z-index: 1;
+    position: relative;
+}
+
+.timer {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    z-index: 1;
+    position: relative;
+}
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid.item.flipped {
+    transform:rotateY('180deg')
+}
+
+.message {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.message.game-over {
+    border: 2px solid red;
+}
+
+.message.has-won {
+    border: 2px solid green;
+}
