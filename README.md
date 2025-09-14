@@ -5,6 +5,7 @@ Este proyecto es un juego de memoria en el que los jugadores deben emparejar car
 **El código lo podrán encontrar en el rama Máster**
 
 ![Logo](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+[![CSS](https://img.shields.io/badge/CSS-1877F2?style=for-the-badge&logo=CSS&logoColor=white&labelColor=101010)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
 
 ## Características
