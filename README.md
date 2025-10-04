@@ -28,7 +28,7 @@ Sigue estos pasos para clonar e instalar la aplicación en tu máquina local:
    Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu-usuario/gestor-citas-veterinarias.git
+   git clone https://github.com/JoseLuisDiazAlonso/Juego_memory_Cards.git
 
 2. **Navega al directorio del Proyecto**:
    
